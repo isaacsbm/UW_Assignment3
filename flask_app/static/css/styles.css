@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P';
+    font: 'Press Start 2P';
+    
+}
+html, body { height: 100% }
+
+body {
+    background-color: #000000;
+}
+p{
+    color: #fffcfc;
+}
+h1 {
+    text-align: center;
+    color: #fffcfc;
+    text-shadow: #DA0463 1px 0 10px;
+}
+.btn{
+    background-color: #fffcfc;
+    border: #DA0463;
+}
+.btn:hover{
+    background-color: #DA0463;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Optional custom CSS for centering and spacing */
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-margin {
+    margin-top: 20px; /* Adjust this value to control the space between heading and button */
+}

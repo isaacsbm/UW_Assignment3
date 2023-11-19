@@ -35,7 +35,7 @@ h1 {
   z-index: -1;
 }
 
-/* Optional custom CSS for centering and spacing */
+
 .vertical-center {
     min-height: 100vh;
     display: flex;
@@ -44,5 +44,5 @@ h1 {
     align-items: center;
 }
 .btn-margin {
-    margin-top: 20px; /* Adjust this value to control the space between heading and button */
+    margin-top: 20px;
 }
